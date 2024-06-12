@@ -1,0 +1,78 @@
+
+body{
+   
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+  
+    
+
+}
+li{
+    
+    border: 1px solid rgb(186, 179, 179);
+    list-style-type: none;
+
+
+}
+.catsgallery{
+    margin: 0;
+    padding: 0;
+    width: 1207px;
+    height: 900px;
+    
+  
+    
+   
+}
+.header{
+    font-family: "Ubuntu", sans-serif;;
+    padding: 30px;
+    list-style-type:none ;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+    border-bottom: none;
+    
+
+}
+.bigcat img{
+   
+    width: 500px;
+}
+.smallcats{
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
+    
+    
+    padding: 0;
+    margin: 0;
+    
+
+}
+.smallcats li{
+
+    width: 200px;
+    height: 200px;
+    
+}
+.smallcats img{
+  
+    width: 100px;
+    height: 100px;
+    
+}
+img{
+    display: block;
+    margin: 50px auto;
+    
+}
+
+
+    
